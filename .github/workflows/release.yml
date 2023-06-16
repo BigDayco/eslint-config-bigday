@@ -1,7 +1,10 @@
 name: Release
 
 on:
-  push: [*]
+  push:
+    branches:
+      - main
+      - feat/testing-action
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
