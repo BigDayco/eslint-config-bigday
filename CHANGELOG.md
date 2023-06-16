@@ -1,5 +1,11 @@
 # @bigdayco/eslint-config
 
+## 1.1.1
+
+### Patch Changes
+
+- updated readme
+
 ## 1.1.0
 
 ### Minor Changes
