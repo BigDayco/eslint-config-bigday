@@ -1,6 +1,6 @@
 {
   "name": "@bigdayco/eslint-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": false,
   "description": "Eslint configuration used by BigDay",
   "main": "index.js",
@@ -8,6 +8,11 @@
   "license": "MIT",
   "repository": {
     "url": "BigDayco/eslint-config-bigday"
+  },
+  "scripts": {
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "changeset publish"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.25.0",
@@ -33,5 +38,8 @@
     "typescript": {
       "optional": true
     }
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1"
   }
 }
