@@ -67,14 +67,6 @@ module.exports = {
         img: ['Image'],
       },
     ],
-    "jsx-a11y/anchor-is-valid": [
-      "warn",
-      {
-        "components": ["Link"],
-        "specialLink": ["hrefLeft", "hrefRight"],
-        "aspects": ["noHref", "invalidHref", "preferButton"]
-      }
-    ],
     'jsx-a11y/aria-props': 'warn',
     'jsx-a11y/aria-proptypes': 'warn',
     'jsx-a11y/aria-unsupported-elements': 'warn',
