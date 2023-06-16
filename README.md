@@ -15,13 +15,13 @@
 
 1. Install the dependencies
 ```
-npm i -D eslint @bigday/eslint-config
+npm i -D eslint @bigdayco/eslint-config
 ```
 
 2. Create a `.eslintrc.json` file extending the config:
 ```
 {
-  "extends": "@bigday/eslint-config/react"
+  "extends": "@bigdayco/eslint-config/react"
 }
 ```
 
