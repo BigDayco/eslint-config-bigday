@@ -24,6 +24,14 @@ jobs:
 
       - run: npm ci
 
+      - name: Creating .npmrc
+        run: |
+          cat << EOF > "$HOME/.npmrc"
+            //registry.npmjs.org/:_authToken=$NPM_TOKEN
+          EOF
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          
       - name: Publish to NPM
         id: changesets
         uses: changesets/action@v1
