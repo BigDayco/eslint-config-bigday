@@ -1,5 +1,5 @@
 {
-  "name": "@bigday/eslint-config",
+  "name": "@bigdayco/eslint-config",
   "version": "1.0.0",
   "private": false,
   "description": "Eslint configuration used by BigDay",
