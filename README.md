@@ -26,3 +26,6 @@ npm i -D eslint @bigdayco/eslint-config
 ```
 
 > You can also use a `.eslintrc.js` instead of JSON if you prefer.
+
+## License
+[MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
