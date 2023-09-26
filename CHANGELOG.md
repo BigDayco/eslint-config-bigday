@@ -1,5 +1,17 @@
 # @bigdayco/eslint-config
 
+## 2.1.0
+
+### Minor Changes
+
+- Update readme
+
+## 2.0.0
+
+### Major Changes
+
+- 📦 Add Next.js and Node.js configurations and update dependencies.
+
 ## 1.1.3
 
 ### Patch Changes
