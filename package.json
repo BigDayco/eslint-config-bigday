@@ -1,6 +1,6 @@
 {
   "name": "@bigdayco/eslint-config",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "private": false,
   "description": "Eslint configuration used by BigDay",
   "main": "index.js",

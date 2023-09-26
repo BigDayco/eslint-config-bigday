@@ -21,7 +21,17 @@ npm i -D eslint @bigdayco/eslint-config
 2. Create a `.eslintrc.json` file extending the config:
 ```
 {
+  # React
   "extends": "@bigdayco/eslint-config/react"
+
+  # Next.js
+  "extends": [
+    "@bigdayco/eslint-config/next", 
+    "next/core-web-vitals"
+  ]
+
+  #Node.js
+  "extends": "@bigdayco/eslint-config/node"
 }
 ```
 
