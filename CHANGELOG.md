@@ -1,5 +1,11 @@
 # @bigdayco/eslint-config
 
+## 2.1.1
+
+### Patch Changes
+
+- Fixed import-helpers bug
+
 ## 2.1.0
 
 ### Minor Changes
